@@ -1,7 +1,7 @@
 # Tree Data Structures and Traversal
 
 ## Overview
-This project implements tree-based data structures and algorithms in C++. It explores Binary Search Trees (BSTs), tree traversal methods, and Red-Black Trees.
+This project was for my CS315 Algorithm Design class had me implement 2 major tree-based data structures and algorithms in C++. I implemented Binary Search Trees (BSTs), tree traversal methods, and Red-Black Trees to traverse 2 numerical .csv datasets.
 
 ## Concepts Covered
 - Binary Search Trees (BST)
@@ -12,9 +12,14 @@ This project implements tree-based data structures and algorithms in C++. It exp
 - Red-Black Trees
 - Tree balancing, rotations, and recoloring
 
+## How To Run
+1. Copy Repo
+2. Compile files with g++ -o bst bst.cpp, and g++ -o redBlack redBlack.cpp
+3. Run files with ./bst file1 file2 with file 1 being an insert file and file 2 being a deletion file
+
 ## Technologies
 - C++
 - Standard Template Library (STL)
 
 ## Purpose
-The purpose of this assignment is to practice implementing tree data structures, understanding recursion, and exploring how balanced trees improve searching and insertion efficiency.
+This assignment taught me how to structure Tree based data structures to organize and traverse datasets and also taught me the pros and cons of Tree based structures and how to implement them effectively. 
