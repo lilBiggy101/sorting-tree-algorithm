@@ -1,10 +1,6 @@
 # Binary Search Trees and Red-Black Trees
-
-![C++](https://img.shields.io/badge/C%2B%2B-blue) ![Course](https://img.shields.io/badge/CS315-Algorithm%20Design-lightgrey)
-
 ## Overview
-A C++ project implementing two tree-based data structures: a Binary Search Tree (BST) and a Red-Black Tree. Both are used to insert and delete values from numerical CSV datasets and traverse the results. Built for my CS315 Algorithm Design class.
-
+A C++ project built for my CS315 Algorithm Design class which involved implementing two tree-based data structures: a Binary Search Tree (BST) and a Red-Black Tree. Both are used to insert and delete values from numerical CSV datasets and traverse the results and track the height.
 ## Concepts Covered
 - Binary Search Trees: insertion, searching, deletion
 - Recursive tree traversal, including in-order (LNR)
@@ -31,6 +27,7 @@ cd sorting-tree-algorithm
 g++ -o bst bst.cpp
 g++ -o redBlack redBlack.cpp
 ./bst <insert_file> <delete_file>
+./redBlack <insert_file> <delete_file>
 ```
 For example: `./bst testrandom.csv deleteNodes.csv`. The first file holds the values to insert and the second holds the values to delete.
 
